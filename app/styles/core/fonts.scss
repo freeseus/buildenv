@@ -1,0 +1,737 @@
+////////////////////////////////////////////
+// bignoodletoo
+////////////////////////////////////////////
+
+@font-face{
+	font-family: 'Big Noodle Too';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Big Noodle Too'), local('Big Noodle Too'), url('../fonts/bignoodletoo/regular.woff') format('woff');
+}
+
+@font-face{
+	font-family: 'Big Noodle Too';
+	font-weight: 400;
+	src: local('Big Noodle Too'), local('Big Noodle Too'), url('../fonts/bignoodletoo/oblique.woff') format('woff');
+}
+
+
+////////////////////////////////////////////
+// winter icons + game icons
+////////////////////////////////////////////
+
+@font-face{
+	font-family: 'Win';
+	src: url('../fonts/win/win_3.3.woff') format('woff'), url('../fonts/win/win_3.3.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.wi, .wi::before{
+	display: inline-block;
+	font: normal normal normal 24px/1 'Win';
+	font-size: inherit;
+	text-align: center;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wi-accolades-abstract-078::before{
+	content: '\e0b6';
+}
+
+.wi-accolades-allied-star::before{
+	content: '\e0c4';
+}
+
+.wi-accolades-atomic-slashes::before{
+	content: '\ea43';
+}
+
+.wi-accolades-aura::before{
+	content: '\e68b';
+}
+
+.wi-accolades-awareness::before{
+	content: '\e4c3';
+}
+
+.wi-accolades-backpack::before{
+	content: '\e74b';
+}
+
+.wi-accolades-binoculars::before{
+	content: '\e38b';
+}
+
+.wi-accolades-blindfold::before{
+	content: '\e778';
+}
+
+.wi-accolades-body-swap::before{
+	content: '\e886';
+}
+
+.wi-accolades-bolt-shield::before{
+	content: '\e04f';
+}
+
+.wi-accolades-brain-freeze::before{
+	content: '\e4c5';
+}
+
+.wi-accolades-brutal-helm::before{
+	content: '\e11b';
+}
+
+.wi-accolades-caesar::before{
+	content: '\e5cc';
+}
+
+.wi-accolades-chest::before{
+	content: '\e9ad';
+}
+
+.wi-accolades-clapperboard::before{
+	content: '\e8f3';
+}
+
+.wi-accolades-cloak-dagger::before{
+	content: '\eafb';
+}
+
+.wi-accolades-compass::before{
+	content: '\e3a2';
+}
+
+.wi-accolades-crowned-skull::before{
+	content: '\e154';
+}
+
+.wi-accolades-daggers::before{
+	content: '\ed65';
+}
+
+.wi-accolades-director-chair::before{
+	content: '\e94e';
+}
+
+.wi-accolades-drama-masks::before{
+	content: '\e4cb';
+}
+
+.wi-accolades-eagle-emblem::before{
+	content: '\e926';
+}
+
+.wi-accolades-film-projector::before{
+	content: '\e8f6';
+}
+
+.wi-accolades-finger-print::before{
+	content: '\e71e';
+}
+
+.wi-accolades-fire-silhouette::before{
+	content: '\e286';
+}
+
+.wi-accolades-fist::before{
+	content: '\e731';
+}
+
+.wi-accolades-fleur-de-lis::before{
+	content: '\e084';
+}
+
+.wi-accolades-graveyard::before{
+	content: '\e522';
+}
+
+.wi-accolades-headphones::before{
+	content: '\e48c';
+}
+
+.wi-accolades-heartburn::before{
+	content: '\e294';
+}
+
+.wi-accolades-high-five::before{
+	content: '\e73f';
+}
+
+.wi-accolades-invisible::before{
+	content: '\e870';
+}
+
+.wi-accolades-knight-banner::before{
+	content: '\e922';
+}
+
+.wi-accolades-laurel-crown::before{
+	content: '\e159';
+}
+
+.wi-accolades-layered-armor::before{
+	content: '\e920';
+}
+
+.wi-accolades-light-backpack::before{
+	content: '\eaf5';
+}
+
+.wi-accolades-minions::before{
+	content: '\e69d';
+}
+
+.wi-accolades-mouse-2::before{
+	content: '\e8ff';
+}
+
+.wi-accolades-music-spell::before{
+	content: '\e4af';
+}
+
+// .wi-accolades-organigram::before{
+// 	content: '\e922';
+// }
+
+.wi-accolades-overmind::before{
+	content: '\e0be';
+}
+
+.wi-accolades-pay-money::before{
+	content: '\e91e';
+}
+
+.wi-accolades-photo-camera::before{
+	content: '\e919';
+}
+
+.wi-accolades-poker-hand::before{
+	content: '\e118';
+}
+
+.wi-accolades-rally-the-troops::before{
+	content: '\e1b5';
+}
+
+.wi-accolades-ribbon-shield::before{
+	content: '\e91d';
+}
+
+.wi-accolades-robe::before{
+	content: '\eaba';
+}
+
+// .wi-accolades-roman-toga::before{
+// 	content: '\e923';
+// }
+
+.wi-accolades-rogue::before{
+	content: '\e6a4';
+}
+
+.wi-accolades-rupee::before{
+	content: '\e921';
+}
+
+.wi-accolades-sinking-trap::before{
+	content: '\e6a6';
+}
+
+.wi-accolades-skull-shield::before{
+	content: '\e029';
+}
+
+.wi-accolades-spartan-helmet::before{
+	content: '\e13d';
+}
+
+.wi-accolades-spiked-halo::before{
+	content: '\e5d3';
+}
+
+.wi-accolades-tattered-banner::before{
+	content: '\e662';
+}
+
+.wi-accolades-terror::before{
+	content: '\e4df';
+}
+
+.wi-accolades-three-friends::before{
+	content: '\e878';
+}
+
+.wi-accolades-toggles::before{
+	content: '\ebc4';
+}
+
+.wi-accolades-tombstone::before{
+	content: '\e536';
+}
+
+.wi-accolades-triorb::before{
+	content: '\e0b8';
+}
+
+.wi-accolades-triple-skulls::before{
+	content: '\e7bf';
+}
+
+.wi-accolades-trophy::before{
+	content: '\e924';
+}
+
+.wi-accolades-trophy-cup::before{
+	content: '\e925';
+}
+
+.wi-accolades-village::before{
+	content: '\e632';
+}
+
+.wi-accolades-walkie-talkie::before{
+	content: '\e962';
+}
+
+.wi-accolades-wax-tablet::before{
+	content: '\e923';
+}
+
+.wi-accolades-zeus-sword::before{
+	content: '\e93c';
+}
+
+
+////////////////////////////////////////////
+// teko
+////////////////////////////////////////////
+
+@font-face{
+	font-family: 'Teko';
+	src: url('../fonts/teko/teko.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+////////////////////////////////////////////
+// mdifa (mdi font & font awesome)
+////////////////////////////////////////////
+
+@font-face{
+	font-family: 'mdifa';
+	src: url('../fonts/mdifa/mdifa.woff') format('woff'), url('../fonts/mdifa/mdifa.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.mdifa, .mdifa::before{
+	display: inline-block;
+	font: normal normal normal 24px/1 'mdifa';
+	font-size: inherit;
+	text-align: center;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+  
+.mdifa-account::before{
+	content: '\f0004';
+}
+
+.mdifa-account-check::before{
+	content: '\f0008';
+}
+
+.mdifa-account-edit::before{
+	content: '\f06bc';
+}
+
+.mdifa-account-group::before{
+	content: '\f0849';
+}
+
+.mdifa-account-multiple-check::before{
+	content: '\f08c5';
+}
+
+.mdifa-account-multiple-remove::before{
+	content: '\f120a';
+}
+
+.mdifa-account-off::before{
+	content: '\f0012';
+}
+
+.mdifa-alert::before{
+	content: '\f0026';
+}
+
+.mdifa-alert-decagram::before{
+	content: '\f06bd';
+}
+
+.mdifa-alpha-a-circle::before{
+	content: '\f0bec';
+}
+
+.mdifa-alpha-a-circle-outline::before{
+	content: '\f0bed';
+}
+
+.mdifa-alphabetical-variant::before{
+	content: '\f100d';
+}
+
+.mdifa-arrow-collapse::before{
+	content: '\f0615';
+}
+
+.mdifa-arrow-expand::before{
+	content: '\f0616';
+}
+
+.mdifa-cards-playing-outline::before{
+	content: '\f063a';
+}
+
+.mdifa-cart::before{
+	content: '\f0110';
+}
+
+.mdifa-check::before{
+	content: '\f012c';
+}
+
+.mdifa-check-all::before{
+	content: '\f012d';
+}
+
+.mdifa-check-bold::before{
+	content: '\f0e1e';
+}
+
+.mdifa-check-decagram::before{
+	content: '\f0791';
+}
+
+.mdifa-checkbox-blank::before{
+	content: '\f012e';
+}
+
+.mdifa-checkbox-marked::before{
+	content: '\f0132';
+}
+
+.mdifa-chevron-down::before{
+	content: '\f0140';
+}
+
+.mdifa-clock::before{
+	content: '\f0954';
+}
+
+.mdifa-clock-outline::before{
+	content: '\f0150';
+}
+
+.mdifa-close::before{
+	content: '\f0156';
+}
+
+.mdifa-close-thick::before{
+	content: '\f1398';
+}
+
+.mdifa-crosshairs::before{
+	content: '\f01a3';
+}
+
+.mdifa-decagram::before{
+	content: '\f076c';
+}
+
+.mdifa-decagram-outline::before{
+	content: '\f076d';
+}
+
+.mdifa-delete::before{
+	content: '\f01b4';
+}
+
+.mdifa-dice-multiple::before{
+	content: '\f076e';
+}
+
+.mdifa-discord::before{
+	content: '\f066f';
+}
+
+.mdifa-gamepad::before{
+	content: '\f0296';
+}
+
+.mdifa-google-controller::before{
+	content: '\f02b4';
+}
+
+.mdifa-home-circle::before{
+	content: '\f07d2';
+}
+
+.mdifa-lock::before{
+	content: '\f033e';
+}
+
+.mdifa-lock-open::before{
+	content: '\f033f';
+}
+
+.mdifa-lock-open-variant::before{
+	content: '\f0fc6';
+}
+
+.mdifa-magnify::before{
+	content: '\f0349';
+}
+
+.mdifa-medal::before{
+	content: '\f0987';
+}
+
+.mdifa-menu::before{
+	content: '\f035c';
+}
+
+.mdifa-menu-down::before{
+	content: '\f035d';
+}
+
+.mdifa-menu-up::before{
+	content: '\f0360';
+}
+
+.mdifa-microsoft-xbox::before{
+	content: '\f05b9';
+}
+
+.mdifa-microsoft-xbox-controller::before{
+	content: '\f05ba';
+}
+
+.mdifa-microsoft-xbox-controller-off::before{
+	content: '\f05bb';
+}
+
+.mdifa-nintendo-switch::before{
+	content: '\f07e1';
+}
+
+.mdifa-open-in-new::before{
+	content: '\f03cc';
+}
+
+.mdifa-plus-box::before{
+	content: '\f0416';
+}
+
+.mdifa-seal::before{
+	content: '\f047a';
+}
+
+.mdifa-shield-star::before{
+	content: '\f113b';
+}
+
+.mdifa-shuffle-variant::before{
+	content: '\f049f';
+}
+
+.mdifa-skip-next-circle-outline::before{
+	content: '\f0662';
+}
+
+.mdifa-skip-previous-circle-outline::before{
+	content: '\f0664';
+}
+
+.mdifa-skull::before{
+	content: '\f068c';
+}
+
+.mdifa-sony-playstation::before{
+	content: '\f0414';
+}
+
+.mdifa-sort-ascending::before{
+	content: '\f04bc';
+}
+
+.mdifa-sort-descending::before{
+	content: '\f04bd';
+}
+
+.mdifa-steam::before{
+	content: '\f04d3';
+}
+
+.mdifa-sword-cross::before{
+	content: '\f0787';
+}
+
+.mdifa-timelapse::before{
+	content: '\f051a';
+}
+
+.mdifa-trophy::before{
+	content: '\f0538';
+}
+
+.mdifa-twitch::before{
+	content: '\f0543';
+}
+
+.mdifa-twitter::before{
+	content: '\f0544';
+}
+
+.mdifa-volume-high::before{
+	content: '\f057e';
+}
+
+.mdifa-volume-off::before{
+	content: '\f0581';
+}
+
+.mdifa-youtube::before{
+	content: '\f05c3';
+}
+
+.mdifa-facebook_sign::before{
+	content: '\f082';
+}
+
+.mdifa-globe::before{
+	content: '\f0ac';
+}
+
+.mdifa-desktop::before{
+	content: '\f108';
+}
+
+
+////////////////////////////////////////////
+// roboto
+////////////////////////////////////////////
+
+/* latin-ext */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Roboto Thin'), local('Roboto-Thin'), url('thin.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Roboto Thin'), local('Roboto-Thin'), url('thin2.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/roboto/light.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/roboto/light2.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto/regular.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'), url('../fonts/roboto/regular2.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto/medium.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/roboto/medium2.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Heavy'), local('Roboto-Heavy'), url('../fonts/roboto/heavy.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Heavy'), local('Roboto-Heavy'), url('../fonts/roboto/heavy2.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/roboto/black.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/roboto/black2.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}

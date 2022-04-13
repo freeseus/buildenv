@@ -1,0 +1,28 @@
+::-webkit-scrollbar{
+	overflow-y: scroll;
+	background: transparent;
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: $mediumGray;
+	border: solid 1px darken($darkGray, 2.5%);
+	min-height: 120px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: lighten($mediumGray, 5%);
+}
+
+::-webkit-scrollbar-thumb:vertical{
+	border-width: 0 1px 0 1px;
+}
+
+::-webkit-scrollbar-track-piece{
+	background-color: $darkGray;
+	border-left: solid darken($darkGray, 2.5%) 1px;
+}
+
+::-webkit-scrollbar-corner{
+	background: $darkGray;
+}
